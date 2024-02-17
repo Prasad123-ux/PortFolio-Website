@@ -1,0 +1,15 @@
+
+.a_row_red{
+    background-color: red;
+    /* border: 1px solid grey; */
+    height: 200px;
+}
+.a_row_green{
+    background-color: green;
+    height: 200px;
+}
+.a1{
+    border: 2px dashed white;
+    height: 200px;
+
+}
