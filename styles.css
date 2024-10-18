@@ -141,16 +141,20 @@ body {
 /* Projects Section */
 .projects-background {
     background: linear-gradient(to right, #0f2027, #040505);
-    padding: 60px 0;
+    padding: 60px 0; 
+    /* width: 100%; */
 }
 .carousel-item img {
     height: 400px;
-    object-fit: cover;
+    object-fit: cover;  
+    width: fit-content;
+    
 }
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 10px; 
+
 }
 .carousel-control-prev, .carousel-control-next {
     filter: invert(1);
@@ -265,3 +269,17 @@ form .form-control:focus {
     color: #ff6f61;
 }
 
+.carousel-inner{
+    width: fit-content;
+}
+.project-image{
+    /* width:50% ; */ 
+    /* display: none; */
+}
+@media only screen and (min-width:768px) and (max-width:2000px) {
+ 
+.project-image{
+/* display: none; */ 
+width:100px;
+}
+}
